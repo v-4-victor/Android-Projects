@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.AddActivity">
+    <com.example.fgc2.ui.SetsControl
+        android:id="@+id/add_chain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="Цепь ЛЭП" />
+    <com.example.fgc2.ui.SetsControl
+        android:id="@+id/add_chain2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="Название цепи:" />
+</LinearLayout>

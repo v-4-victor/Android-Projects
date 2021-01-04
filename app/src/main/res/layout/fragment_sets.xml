@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".fragments.SetsFragment">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
+            android:orientation="vertical">
+
+            <com.example.fgc2.ui.SetsControl
+                android:id="@+id/destruct"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:title="Разрушение, потеря несущей способности"
+                app:value="Отсутствует" />
+
+            <com.example.fgc2.ui.SetsControl
+                android:id="@+id/destruct2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:title="Повреждение/разрыв оболочки"
+                app:value="Отсутствует" />
+
+            <com.example.fgc2.ui.SetsControl
+                android:id="@+id/destruct3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:title="Конструктивные элементы"
+                app:value="В комплекте" />
+
+            <com.example.fgc2.ui.SetsControl
+                android:id="@+id/destruct4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:title="Загрязнение"
+                app:value="Отсутствует" />
+
+            <com.example.fgc2.ui.SetsControl
+                android:id="@+id/destruct5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:title="Подтягивание (задир) подвесок"
+                app:value="Отсутствует" />
+
+            <com.example.fgc2.ui.SetsControl
+                android:id="@+id/destruct6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:title="Поддерживающие подвески, мм"
+                app:value="0mm" />
+
+            <com.example.fgc2.ui.SetsControl
+                android:id="@+id/destruct7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:title="Следы перекрытия, оплавления, треск"
+                app:value="Отсутствует" />
+
+            <com.example.fgc2.ui.SetsControl
+                android:id="@+id/destruct8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:title="Коррозия шапок изоляторов"
+                app:value="Отсутствует" />
+
+            <com.example.fgc2.ui.SetsControl
+                android:id="@+id/destruct9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:title="Эррозия/микротрещины защитной оболочки"
+                app:value="Фарфоровая/Стеклянная" />
+
+            <com.example.fgc2.ui.SetsControl
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:title="Разрушение, потеря несущей способности"
+                app:value="Отсутствует" />
+
+            <com.example.fgc2.ui.SetsControl
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:title="Изломы"
+                app:value="Отсутствует" />
+
+            <com.example.fgc2.ui.SetsControl
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:title="Конструктивные элементы"
+                app:value="В комплекте" />
+
+            <com.example.fgc2.ui.SetsControl
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:title="Коррозионный износ поперечного сечения металлических элементов"
+                app:value="20%" />
+
+            <com.example.fgc2.ui.SetsControl
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:title="Сплошная поверхностная коррозия"
+                app:value="Отсутствует" />
+
+            <com.example.fgc2.ui.SetsControl
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:title="Трещины"
+                app:value="Отсутствует" />
+
+            <com.example.fgc2.ui.SetsControl
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:title="Изгибы"
+                app:value="Отсутствует" />
+
+            <com.example.fgc2.ui.SetsControl
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:title="Раковины"
+                app:value="Отсутствует" />
+
+            <com.example.fgc2.ui.SetsControl
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:title="Оплавы"
+                app:value="Отсутствует" />
+
+            <com.example.fgc2.ui.SetsControl
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:title="Оси шарнирных сочлененний"
+                app:value="10%" />
+
+            <com.example.fgc2.ui.SetsControl
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:title="Искровые промежутки"
+                app:value="10%" />
+        </LinearLayout>
+</ScrollView>
